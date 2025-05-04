@@ -5,16 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aula de HTML</title>
     <style>
-        h1 {
-            background: darkgray;
-            font: x-large;
-            
+        .section-on{
+            color: aliceblue;
+            width: 200px;
+            height: 150px;
+            background-color: deeppink;
+            border: 5px solid black;
+            padding: 15px;
+        }
+        .section-two{
+            background: cyan;
+            color: aliceblue;
+            width: 200px;
+            height: 150px;
+            border: 5px solid black;
+            padding: 15px;
+        }
+        nav {
+            display: flex;
+            align-items: center;
+            margin-left: 10px;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
         }
     </style>
 </head>
 <body>
-    <h1 id = "cb_1" class="f">Aprendendo HTML</h1>
-    <p>Pagina contendo exercicios das Aulas de HTML e CSS</p>
-    
+    <!-- <section class="section-on">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus iste perferendis non perspiciatis! Odio, earum, perspiciatis temporibus hic laudantium vel accusamus facere necessitatibus corporis sit sapiente? Perferendis consectetur earum nostrum.</section>
+    <section class="section-two">2</section> -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Products</a></li>
+        </ul>
+    </nav>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+    <ol type="1" start="20">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ol>
+    <dl>
+        <dt>Café</dt>
+        <dd>Bebida preta quente</dd>
+    </dl>
+
 </body>
 </html>
